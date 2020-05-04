@@ -11,16 +11,16 @@ Download PubTator annotations for LitCovid from the NCBI LitCovid FTP site: ftp:
 Download the PubTator annotations for CORD-19 at the NCBI CORD-19 FTP site: ftp://ftp.ncbi.nlm.nih.gov/pub/lu/CORD19/.
 
 ## PubTator
-[PubTator](https://www.ncbi.nlm.nih.gov/research/pubtator/) is a system provided by the [NCBI BioNLP group](https://www.ncbi.nlm.nih.gov/research/bionlp/) that provides automatic annotations of biomedical concepts such as genes and mutations in PubMed abstracts and PMC full-text articles [3-5]. Annotations can be viewed in a [web interface](https://www.ncbi.nlm.nih.gov/research/pubtator/) or downloaded via [RESTful API](https://www.ncbi.nlm.nih.gov/research/pubtator/api.html) or [FTP](ftp://ftp.ncbi.nlm.nih.gov/pub/lu/PubTatorCentral). Downloaded annotations are provided in BioC JSON and BioC XML formats for full-text articles [6] and in PubTator format for title and abstract, as described [here](https://www.ncbi.nlm.nih.gov/research/bionlp/APIs/format/). 
+[PubTator](https://www.ncbi.nlm.nih.gov/research/pubtator/) is a system provided by the [NCBI BioNLP group](https://www.ncbi.nlm.nih.gov/research/bionlp/) that provides automatic annotations of biomedical concepts such as genes and mutations in PubMed abstracts and PMC full-text articles [3-5]. Annotations can be viewed in a [web interface](https://www.ncbi.nlm.nih.gov/research/pubtator/) or downloaded via [RESTful API](https://www.ncbi.nlm.nih.gov/research/pubtator/api.html) or [FTP](ftp://ftp.ncbi.nlm.nih.gov/pub/lu/PubTatorCentral). Downloaded annotations are provided in BioC JSON and BioC XML formats [6] (for full-text articles) and in PubTator format (for title and abstract), as described [here](https://www.ncbi.nlm.nih.gov/research/bionlp/APIs/format/). 
 
 ### PubTator annotations
 Automated annotations for PubTator are created with automated concept recognition systems using machine learning and disambiguated with cutting-edge deep learning for improved accuracy. Concepts identified are linked to several biomedical resources:
-1. Genes and proteins are annotated by [GNormPlus](https://www.ncbi.nlm.nih.gov/bionlp/Tools/gnormplus) and linked to XXX.
+1. Genes and proteins are annotated by [GNormPlus](https://www.ncbi.nlm.nih.gov/bionlp/Tools/gnormplus) and linked to [NCBI Gene](https://www.ncbi.nlm.nih.gov/gene).
 1. Chemicals, including drugs, are annotated by a concept recognition system based on the bluebert extension of the BERT deep learning transformer model and linked to Medical Subject Headings ([MESH](https://meshb.nlm.nih.gov/search)).
 1. Diseases are annotated by [TaggerOne](https://www.ncbi.nlm.nih.gov/bionlp/Tools/taggerone) and linked to the [MEDIC disease vocabulary](http://ctdbase.org/downloads/#alldiseases), which includes both Medical Subject Headings ([MESH](https://meshb.nlm.nih.gov/search)) and [OMIM](https://www.omim.org/).
 1. Cell lines are annotated by [TaggerOne](https://www.ncbi.nlm.nih.gov/bionlp/Tools/taggerone) and linked to [Cellosaurus](https://web.expasy.org/cellosaurus/).
-1. Species are annotated by [SR4GN](https://www.ncbi.nlm.nih.gov/bionlp/Tools/sr4gn) and linked to XXX.
-1. Genomic variants are annotated by [tmVar](https://www.ncbi.nlm.nih.gov/bionlp/Tools/tmvar) and linked to XXX.
+1. Species are annotated by [SR4GN](https://www.ncbi.nlm.nih.gov/bionlp/Tools/sr4gn) and linked to [NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy).
+1. Genomic variants are annotated by [tmVar](https://www.ncbi.nlm.nih.gov/bionlp/Tools/tmvar) and linked to [dbSNP](https://www.ncbi.nlm.nih.gov/snp/).
 
 ## References
 [1] Chen, Q., Allot, A., & Lu, Z. (2020). Keep up with the latest coronavirus research. Nature, 579(7798), 193. doi: 10.1038/d41586-020-00694-1<br/>
