@@ -7,7 +7,7 @@
 Download PubTator annotations for LitCovid from the NCBI LitCovid FTP site: ftp://ftp.ncbi.nlm.nih.gov/pub/lu/LitCovid/
 
 ## CORD-19
-[CORD-19](https://pages.semanticscholar.org/coronavirus-research), the COVID-19 Open Research Dataset, includes approximately 59,000 scholarly articles provided by the [Allen Institute](https://alleninstitute.org/) [2]. PubTator annotations for CORD-19 are updated weekly.<br/><br/>
+[CORD-19](https://pages.semanticscholar.org/coronavirus-research), the COVID-19 Open Research Dataset, includes approximately 59,000 scholarly articles provided by the [Allen Institute](https://alleninstitute.org/) about COVID-19 and coronavirus-related research (e.g. SARS, MERS, etc) [2]. PubTator annotations for CORD-19 are updated weekly.<br/><br/>
 Download the PubTator annotations for CORD-19 at the NCBI CORD-19 FTP site: ftp://ftp.ncbi.nlm.nih.gov/pub/lu/CORD19/.
 
 ## PubTator
@@ -15,12 +15,12 @@ Download the PubTator annotations for CORD-19 at the NCBI CORD-19 FTP site: ftp:
 
 ### PubTator annotations
 Automated annotations for PubTator are created with automated concept recognition systems using machine learning and disambiguated with cutting-edge deep learning for improved accuracy. Concepts identified are linked to several biomedical resources:
-1. Genes and proteins are annotated by the XXX system and linked to XXX.
-1. Chemicals, including drugs are annotated by the XXX system and linked to XXX.
-1. disease are annotated by the XXX system and linked to XXX.
-1. Cell lines are annotated by the XXX system and linked to XXX.
-1. Species are annotated by the XXX system and linked to XXX.
-1. Genomic variants are annotated by the XXX system and linked to XXX.
+1. Genes and proteins are annotated by [GNormPlus](https://www.ncbi.nlm.nih.gov/bionlp/Tools/gnormplus) and linked to XXX.
+1. Chemicals, including drugs, are annotated by a concept recognition system based on the bluebert extension of the BERT deep learning transformer model and linked to Medical Subject Headings ([MESH](https://meshb.nlm.nih.gov/search)).
+1. Diseases are annotated by [TaggerOne](https://www.ncbi.nlm.nih.gov/bionlp/Tools/taggerone) and linked to the [MEDIC disease vocabulary](http://ctdbase.org/downloads/#alldiseases), which includes both Medical Subject Headings ([MESH](https://meshb.nlm.nih.gov/search)) and [OMIM](https://www.omim.org/).
+1. Cell lines are annotated by [TaggerOne](https://www.ncbi.nlm.nih.gov/bionlp/Tools/taggerone) and linked to [Cellosaurus](https://web.expasy.org/cellosaurus/).
+1. Species are annotated by [SR4GN](https://www.ncbi.nlm.nih.gov/bionlp/Tools/sr4gn) and linked to XXX.
+1. Genomic variants are annotated by [tmVar](https://www.ncbi.nlm.nih.gov/bionlp/Tools/tmvar) and linked to XXX.
 
 ## References
 [1] Chen, Q., Allot, A., & Lu, Z. (2020). Keep up with the latest coronavirus research. Nature, 579(7798), 193. doi: 10.1038/d41586-020-00694-1<br/>
