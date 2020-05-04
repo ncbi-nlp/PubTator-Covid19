@@ -16,7 +16,7 @@ Download the PubTator annotations for CORD-19 at https://ftp.ncbi.nlm.nih.gov/pu
 ### PubTator annotations
 Automated annotations for PubTator are created with automated concept recognition systems using machine learning and disambiguated with cutting-edge deep learning for improved accuracy. Concepts identified are linked to several biomedical resources:
 1. __Genes and proteins__ are annotated by [GNormPlus](https://www.ncbi.nlm.nih.gov/bionlp/Tools/gnormplus) and linked to [NCBI Gene](https://www.ncbi.nlm.nih.gov/gene).
-1. __Chemicals__ are annotated by a concept recognition system based on the bluebert extension of the BERT deep learning transformer model and linked to Medical Subject Headings ([MeSH](https://meshb.nlm.nih.gov/search)).
+1. __Chemicals__ are annotated by a concept recognition system using [bluebert](https://github.com/ncbi-nlp/bluebert), an extension of the BERT deep learning transformer model, and linked to Medical Subject Headings ([MeSH](https://meshb.nlm.nih.gov/search)).
 1. __Diseases__ are annotated by [TaggerOne](https://www.ncbi.nlm.nih.gov/bionlp/Tools/taggerone) and linked to the [MEDIC disease vocabulary](http://ctdbase.org/downloads/#alldiseases), which includes both Medical Subject Headings ([MeSH](https://meshb.nlm.nih.gov/search)) and [OMIM](https://www.omim.org/).
 1. __Cell lines__ are annotated by [TaggerOne](https://www.ncbi.nlm.nih.gov/bionlp/Tools/taggerone) and linked to [Cellosaurus](https://web.expasy.org/cellosaurus/).
 1. __Species__ are annotated by [SR4GN](https://www.ncbi.nlm.nih.gov/bionlp/Tools/sr4gn) and linked to [NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy).
