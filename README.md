@@ -1,6 +1,6 @@
 # PubTator collections on COVID-19
 
-[Pubtator](https://www.ncbi.nlm.nih.gov/research/pubtator/) provides annotations of several biomedical entities in scientific publications related to COVID-19 and SARS-CoV-2. Articles are automatically annotated with six entity types: gene/protein, drug/chemical, disease, cell type, species and genomic variants. Annotated articles are provided in BioC JSON, BioC XML and PubTator formats.
+[Pubtator](https://www.ncbi.nlm.nih.gov/research/pubtator/) provides automated annotations of several biomedical entities in scientific publications related to COVID-19 and SARS-CoV-2. Six entity types are annotated: gene/protein, drug/chemical, disease, cell type, species and genomic variants. Annotations are provided in BioC JSON, BioC XML and PubTator formats. The BioC formats are described at https://www.ncbi.nlm.nih.gov/research/bionlp/APIs/BioC-PMC/, and include the full article text, if available. The PubTator format is described at XXX, and only includes the title and abstract.
 
 ## LitCovid
 [LitCovid](https://www.ncbi.nlm.nih.gov/research/coronavirus/) is a curated literature hub for tracking up-to-date scientific information about SARS-CoV-2 and COVID-19. It is the most comprehensive resource on the subject, with new articles from PubMed and PubMed Central added daily. PubTator annotations for LitCovid are updated once per day, and can be downloaded at ftp://ftp.ncbi.nlm.nih.gov/pub/lu/LitCovid/. 
