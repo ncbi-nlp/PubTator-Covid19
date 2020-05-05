@@ -3,7 +3,7 @@
 
 ## LitCovid
 [LitCovid](https://www.ncbi.nlm.nih.gov/research/coronavirus/) is a curated literature hub, built and maintained by the National Library of Medicine (NLM), for tracking up-to-date scientific information about SARS-CoV-2 and COVID-19 [1]. It is a comprehensive resource specific to SARS-CoV-2 and COVID-19, with new PubMed articles added daily. PubTator annotations for LitCovid are updated daily for article title and abstract, as well as full text for PMC Open Access articles, when applicable. <br/><br/>
- **Download PubTator annotations for LitCovid athttps://ftp.ncbi.nlm.nih.gov/pub/lu/LitCovid/**.
+ **Download PubTator annotations for LitCovid at https://ftp.ncbi.nlm.nih.gov/pub/lu/LitCovid/**.
 
 ## CORD-19
 [CORD-19](https://pages.semanticscholar.org/coronavirus-research), the COVID-19 Open Research Dataset provided by the [Allen Institute for AI](https://alleninstitute.org/), in partnership with the NLM and many others, and contains (mostly) full-text publications on COVID-19 and coronavirus-related research [2]. PubTator annotations are in sync with the weekly updated CORD-19 dataset.<br/><br/>
