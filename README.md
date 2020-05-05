@@ -11,7 +11,8 @@ Download PubTator annotations for LitCovid at https://ftp.ncbi.nlm.nih.gov/pub/l
 Download the PubTator annotations for CORD-19 at https://ftp.ncbi.nlm.nih.gov/pub/lu/CORD19/.
 
 ## How does LitCovid differ from the CORD-19 dataset?
-LitCovid is focused on tracking publications specific to COVID-19, while CORD-19 captures the coronavirus literature more broadly, including other coronaviruses (e.g. SARS and MERS) and a wider time period (i.e. before the current outbreak). 
+LitCovid is focused on tracking publications specific to COVID-19, while [CORD-19](https://www.semanticscholar.org/cord19/download
+) captures the coronavirus literature more broadly, including other coronaviruses (e.g. SARS and MERS) and a wider time period (i.e. before the current outbreak). 
 As of early May 2020, there are ~9,000 and ~59,000 articles in LitCovid and CORD19, respectively. ~1,500 articles appear in both datasets.
 
 ## PubTator
