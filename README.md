@@ -3,16 +3,16 @@
 [Pubtator](https://www.ncbi.nlm.nih.gov/research/pubtator/) provides automated annotations of biomedical entities in scientific publications, including the [LitCovid](https://www.ncbi.nlm.nih.gov/research/coronavirus/) and [CORD-19](https://pages.semanticscholar.org/coronavirus-research) collections on COVID-19 and SARS-CoV-2. Annotations are provided for six entity types (gene/protein, drug/chemical, disease, cell type, species and genomic variants) in two formats (BioC JSON a BioC XML). 
 
 ## LitCovid
-[LitCovid](https://www.ncbi.nlm.nih.gov/research/coronavirus/) is a curated literature hub for tracking up-to-date scientific information about SARS-CoV-2 and COVID-19 [1]. It is the most comprehensive resource on SARS-CoV-2, with new PubMed and PubMed Central articles added daily. PubTator annotations for LitCovid are updated once per day. Articles in the Open Access subset include the full article text; some very recent articles will only include a title and will be updated when the abstract becomes available.<br/><br/>
+[LitCovid](https://www.ncbi.nlm.nih.gov/research/coronavirus/) is a curated literature hub for tracking up-to-date scientific information about SARS-CoV-2 and COVID-19 [1]. It is the most comprehensive resource specific to SARS-CoV-2 and COVID-19, with new PubMed and PubMed Central articles added daily. PubTator annotations for LitCovid are updated daily. Articles in the Open Access subset include the full article text; some very recent articles will only include a title and will be updated when the abstract becomes available.<br/><br/>
 Download PubTator annotations for LitCovid at https://ftp.ncbi.nlm.nih.gov/pub/lu/LitCovid/.
 
 ## CORD-19
-[CORD-19](https://pages.semanticscholar.org/coronavirus-research), the COVID-19 Open Research Dataset provided by the [Allen Institute](https://alleninstitute.org/) about COVID-19 and coronavirus-related research (e.g. SARS, MERS, etc) [2]. PubTator annotations for CORD-19 are updated weekly.<br/><br/>
+[CORD-19](https://pages.semanticscholar.org/coronavirus-research), the COVID-19 Open Research Dataset provided by the [Allen Institute](https://alleninstitute.org/), contains publications on coronavirus-related research [2]. PubTator annotations for CORD-19 are updated weekly.<br/><br/>
 Download the PubTator annotations for CORD-19 at https://ftp.ncbi.nlm.nih.gov/pub/lu/CORD19/.
 
 ## How does LitCovid differ from the CORD-19 dataset?
-LitCovid is focused on tracking publications specific to COVID-19, while [CORD-19](https://www.semanticscholar.org/cord19/download
-) captures the coronavirus literature more broadly, including other coronaviruses (e.g. SARS and MERS) and a wider time period (i.e. before the current outbreak). 
+The publications in [LitCovid](https://www.ncbi.nlm.nih.gov/research/coronavirus/) focus on COVID-19, while [CORD-19](https://www.semanticscholar.org/cord19/download
+) includes other coronaviruses (e.g. SARS and MERS) and a wider time period (i.e. before the current outbreak). 
 As of early May 2020, there are ~9,000 and ~59,000 articles in LitCovid and CORD19, respectively. ~1,500 articles appear in both datasets.
 
 ## PubTator
