@@ -12,7 +12,7 @@ Download the PubTator annotations for CORD-19 at https://ftp.ncbi.nlm.nih.gov/pu
 
 ## How does LitCovid differ from the CORD-19 dataset?
 LitCovid is focused on tracking publications specific to COVID-19, while CORD-19 captures the coronavirus literature more broadly, including other coronaviruses (e.g. SARS and MERS) and a wider time period (i.e. before the current outbreak). 
-As of Early May 2020, there are ~9,000 and ~59,000 articles in LitCovid and CORD19, respectively. ~1,500 articles appear in both datasets.
+As of early May 2020, there are ~9,000 and ~59,000 articles in LitCovid and CORD19, respectively. ~1,500 articles appear in both datasets.
 
 ## PubTator
 [PubTator](https://www.ncbi.nlm.nih.gov/research/pubtator/) provides automatic annotations of biomedical concepts such as genes and mutations in PubMed abstracts and PMC full-text articles [3-4]. Annotations can be viewed in a [web interface](https://www.ncbi.nlm.nih.gov/research/pubtator/) or downloaded via [RESTful API](https://www.ncbi.nlm.nih.gov/research/pubtator/api.html) or [FTP](https://ftp.ncbi.nlm.nih.gov/pub/lu/PubTatorCentral/). Downloaded annotations are provided in BioC JSON and BioC XML formats [5] (full-text articles) and in PubTator format (title and abstract), as described [here](https://www.ncbi.nlm.nih.gov/research/bionlp/APIs/format/). 
