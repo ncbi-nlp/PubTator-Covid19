@@ -2,11 +2,11 @@
 [Pubtator](https://www.ncbi.nlm.nih.gov/research/pubtator/) provides automated annotations of biomedical entities in scientific publications. Here we present recent results of applying PubTator on the literature about COVID-19 and other coronaviruses. In particular, we feature results on two specific data collections: [LitCovid](https://www.ncbi.nlm.nih.gov/research/coronavirus/) and [CORD-19](https://pages.semanticscholar.org/coronavirus-research). Pubtator annotations are provided for six entity types (gene/protein, drug/chemical, disease, cell type, species and genomic variants) in two formats (BioC JSON and BioC XML). 
 
 ## LitCovid
-[LitCovid](https://www.ncbi.nlm.nih.gov/research/coronavirus/) is a curated literature hub, built and maintained by the National Library of Medicine (NLM), for tracking up-to-date scientific information about SARS-CoV-2 and COVID-19 [1]. It is a comprehensive resource specific to SARS-CoV-2 and COVID-19, with new PubMed articles added daily. PubTator annotations for LitCovid are updated daily for article title and abstract, as well as full text for PMC Open Access articles, when applicable. <br/><br/>
+[LitCovid](https://www.ncbi.nlm.nih.gov/research/coronavirus/) is a curated literature hub, built and maintained by the [National Library of Medicine (NLM)](https://www.nlm.nih.gov/), for tracking up-to-date scientific information about SARS-CoV-2 and COVID-19 [1]. It is a comprehensive resource specific to SARS-CoV-2 and COVID-19, with new PubMed articles added daily. PubTator annotations for LitCovid are updated daily for article title and abstract, as well as full text for PMC Open Access articles, when applicable. <br/><br/>
 Download PubTator annotations for LitCovid from [here](https://ftp.ncbi.nlm.nih.gov/pub/lu/LitCovid/).
 
 ## CORD-19
-[CORD-19](https://pages.semanticscholar.org/coronavirus-research), the COVID-19 Open Research Dataset provided by the [Allen Institute for AI](https://alleninstitute.org/) and in partnership with the NLM and many others, contains (mostly) full-text publications on COVID-19 and coronavirus-related research [2]. PubTator annotations are in sync with the weekly updated CORD-19 dataset.<br/><br/>
+[CORD-19](https://pages.semanticscholar.org/coronavirus-research), the COVID-19 Open Research Dataset provided by the [Allen Institute for AI](https://alleninstitute.org/) and in partnership with the [NLM](https://www.nlm.nih.gov/) and many others, contains (mostly) full-text publications on COVID-19 and coronavirus-related research [2]. PubTator annotations are in sync with the weekly updated CORD-19 dataset.<br/><br/>
 Download the PubTator annotations for CORD-19 from [here](https://ftp.ncbi.nlm.nih.gov/pub/lu/CORD19/).
 
 ## What is the overlap between the datasets?
@@ -28,7 +28,8 @@ Automated annotations for PubTator are created with automated concept recognitio
 
 ## Cross-links
 + PubAnnotation: https://covid19.pubannotation.org
-+ CORD-19-on-FHIR: https://github.com/fhircat/CORD-19-on-FHIR
++ CORD-19-on-FHIR: https://github.com/fhircat/CORD-19-on-FHIR<br/><br/>
+If you have a related project, please [contact us](https://www.ncbi.nlm.nih.gov/research/bionlp/)
 
 ## References
 [1] Chen, Q., Allot, A., & Lu, Z. (2020). Keep up with the latest coronavirus research. Nature, 579(7798), 193. doi: 10.1038/d41586-020-00694-1<br/>
