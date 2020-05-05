@@ -29,7 +29,7 @@ Automated annotations for PubTator are created with automated concept recognitio
 ## Cross-links
 + PubAnnotation: https://covid19.pubannotation.org
 + CORD-19-on-FHIR: https://github.com/fhircat/CORD-19-on-FHIR<br/><br/>
-If you have a related project, please [contact us](https://www.ncbi.nlm.nih.gov/research/bionlp/)
+If you have a related project, please let us know by opening an issue or submitting a pull request.
 
 ## References
 [1] Chen, Q., Allot, A., & Lu, Z. (2020). Keep up with the latest coronavirus research. Nature, 579(7798), 193. doi: 10.1038/d41586-020-00694-1<br/>
