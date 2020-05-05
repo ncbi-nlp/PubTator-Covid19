@@ -32,7 +32,7 @@ Automated annotations for PubTator are created with automated concept recognitio
 
 ## References
 [1] Chen, Q., Allot, A., & Lu, Z. (2020). Keep up with the latest coronavirus research. Nature, 579(7798), 193. doi: 10.1038/d41586-020-00694-1<br/>
-[2] Wang, L. L., et al. (2020). CORD-19: The Covid-19 Open Research Dataset. arXiv preprint arXiv:2004.10706.<br/>
+[2] Wang, L. L., Lo, K., Chandrasekhar, Y., Reas, R., Yang, J., Eide, D., et al. (2020). CORD-19: The Covid-19 Open Research Dataset. arXiv preprint arXiv:2004.10706.<br/>
 [3] Wei, C. H., Allot, A., Leaman, R., & Lu, Z. (2019). PubTator central: automated concept annotation for biomedical full text articles. Nucleic acids research, 47(W1), W587-W593. doi: 10.1093/nar/gkz389<br/>
 [4] Wei, C. H., Leaman, R., & Lu, Z. (2016). Beyond accuracy: creating interoperable and scalable text-mining web services. Bioinformatics, 32(12), 1907-1910.<br/>
 [5] Comeau, D. C., Wei, C. H., Islamaj, R., & Lu, Z. (2019). PMC text mining subset in BioC: about three million full-text articles and growing. Bioinformatics, 35(18), 3533-3535. btz070.<br/>
