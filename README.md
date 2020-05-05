@@ -27,6 +27,10 @@ Automated annotations for PubTator are created with automated concept recognitio
 1. __Species__ are annotated by [SR4GN](https://www.ncbi.nlm.nih.gov/bionlp/Tools/sr4gn) and linked to [NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy).
 1. __Genomic variants__ are annotated by [tmVar](https://www.ncbi.nlm.nih.gov/bionlp/Tools/tmvar) and linked to [dbSNP](https://www.ncbi.nlm.nih.gov/snp/).
 
+## Cross-links
++ PubAnnotation: https://covid19.pubannotation.org
++ CORD-19-on-FHIR: https://github.com/fhircat/CORD-19-on-FHIR
+
 ## References
 [1] Chen, Q., Allot, A., & Lu, Z. (2020). Keep up with the latest coronavirus research. Nature, 579(7798), 193. doi: 10.1038/d41586-020-00694-1<br/>
 [2] Wang, L. L., Lo, K., Chandrasekhar, Y., Reas, R., Yang, J., Eide, D., ... & Mooney, P. (2020). CORD-19: The Covid-19 Open Research Dataset. arXiv preprint arXiv:2004.10706.<br/>
