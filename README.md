@@ -25,6 +25,7 @@ Automated annotations for PubTator are created with automated concept recognitio
 1. __Cell lines__ are annotated by [TaggerOne](https://www.ncbi.nlm.nih.gov/bionlp/Tools/taggerone) and linked to [Cellosaurus](https://web.expasy.org/cellosaurus/).
 1. __Species__ are annotated by [SR4GN](https://www.ncbi.nlm.nih.gov/bionlp/Tools/sr4gn) and linked to [NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy).
 1. __Genomic variants__ are annotated by [tmVar](https://www.ncbi.nlm.nih.gov/bionlp/Tools/tmvar) and linked to [dbSNP](https://www.ncbi.nlm.nih.gov/snp/).
+NOTE: While our annotation tools are state-of-the-art, all automated tools are imperfect and their annotations will contain some errors.
 
 ## Cross-links
 + PubAnnotation: https://covid19.pubannotation.org
